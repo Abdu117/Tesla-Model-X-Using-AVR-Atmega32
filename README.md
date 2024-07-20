@@ -1,13 +1,4 @@
-# RC Car
-
-## Team Members
-| SN | Student Name              | 
-|----|---------------------------|
-| 1  | Amr Hossam Mohamed Younis |               
-| 2  | Mohamed Sameh Mohamed     |               
-| 3  | Abdelrahman Ashraf Mahmoud|               
-| 4  | Mohamed Essam Fawzy       |               
-| 5  | Mahmoud Ashraf Gad        |               
+# Tesla Model X
 
 ## Table of Contents
 
@@ -23,11 +14,18 @@
 ---
 
 ## Project Objective
-The objective of this project is to design and build an RC car using an Atmega32 microcontroller, H-bridge motor driver, servo motor, ultrasonic sensor, and Bluetooth module. The project aims to practical application using embedded systems and microcontrollers in creating a smart device.
+The primary objective of this project is to design and develop an advanced remote-controlled (RC) car utilizing embedded systems technology. The RC car will feature three distinct modes of operation: manual remote control, autonomous navigation using sensors, and voice recognition for command execution. This project aims to demonstrate effective communication between the remote controller and the RC car, incorporate safety features to prevent accidents and collisions, and showcase innovation and creativity in the design and functionality of the RC car.
 
-The car is controlled by a smartphone through Bluetooth and can move in all four directions (right, left, forward, and backward). The user can switch between remote controlling and line-following modes.
+## Project Features
 
-To ensure safety and avoid collisions, the car can avoid obstacles using the ultrasonic sensor mounted on the servo motor. The ultrasonic sensor will detect obstacles in the car's path and instruct the car to turn or change direction to avoid hitting it.
+### Remote-Controlled (RC) Mode:
+This mode allows for manual control of the RC car using a wireless remote controller. Users can steer, accelerate, and brake the car, providing a traditional RC car experience with responsive and intuitive control.
+
+### Autonomous Mode:
+In this mode, the RC car will use sensors (such as ultrasonic sensors) and embedded algorithms to navigate autonomously. It will be capable of detecting and avoiding obstacles, following predefined paths, and performing basic autonomous driving functions without user intervention.
+
+### Voice Recognition Mode:
+This feature enables the RC car to receive and execute voice commands. Users can initiate actions such as starting, stopping, turning, and switching between modes through voice recognition, enhancing user interaction and control flexibility.
 
 ## System Block Diagram
 
